@@ -28,25 +28,24 @@ draw_config:
     }
 
     .key rect {
-        stroke: var(--dark1);
-        fill: var(--light2);
+        stroke: var(#80FF80);
+        fill: var(#000000);
     }
 
-    .tap {
-        fill: var(--dark1);
-        
-    }
+    # .tap {
+    #     fill: var(--dark1);
+    # }
 
     .info {
         &amp; .shifted, &amp; .hold {
-            fill: var(--dark1)
+            fill: var(--blue3)
         }
     }
 
-    text.shifted, text.hold {
-      font-size: 8px;
-      fill: var(--blue4);
-    }
+    # text.shifted, text.hold {
+    #   font-size: 8px;
+    #   fill: var(--blue4);
+    # }
 
     text.shifted {
         dominant-baseline: hanging;
@@ -70,15 +69,15 @@ draw_config:
         }
     }
 
-    # /* Row 2,3,4 (alpha keys) */
-    # .keypos-23, .keypos-24, .keypos-25, .keypos-26, .keypos-27, .keypos-28, .keypos-29, .keypos-30, .keypos-31, .keypos-32,
-    # .keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-39, .keypos-40, .keypos-41, .keypos-42, .keypos-43, .keypos-44,
-    # .keypos-47, .keypos-48, .keypos-49, .keypos-50, .keypos-51, .keypos-58, .keypos-59, .keypos-60, .keypos-61, .keypos-62
-    # {
-    #     &amp; rect {
-    #         fill: var(--dark1);
-    #     }
-    # }
+    /* Row 2,3,4 (alpha keys) */
+    .keypos-23, .keypos-24, .keypos-25, .keypos-26, .keypos-27, .keypos-28, .keypos-29, .keypos-30, .keypos-31, .keypos-32,
+    .keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-39, .keypos-40, .keypos-41, .keypos-42, .keypos-43, .keypos-44,
+    .keypos-47, .keypos-48, .keypos-49, .keypos-50, .keypos-51, .keypos-58, .keypos-59, .keypos-60, .keypos-61, .keypos-62
+    {
+        &amp; rect {
+            fill: var(--dark4);
+        }
+    }
 
     /* Home keys */
     .keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-41, .keypos-42, .keypos-43, .keypos-44
@@ -92,7 +91,9 @@ draw_config:
     .keypos-52, .keypos-53, .keypos-54,     .keypos-55, .keypos-56, .keypos-57,
     .keypos-69, .keypos-70, .keypos-71,     .keypos-72, .keypos-73, .keypos-74
     {
-       /* TODO? */
+        &amp; rect {
+            fill: var(--orange);
+        }
     }
 
     /* Highlight WASD */
