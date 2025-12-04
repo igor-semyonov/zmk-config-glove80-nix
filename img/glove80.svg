@@ -215,6 +215,7 @@ path.combo { stroke: #7f7f7f; }
 
 /* Nord color scheme */
 :root {
+    --dark0: #1e2420;
     --dark1: #2e3440;
     --dark2: #3b4252;
     --dark3: #434c5e;
@@ -235,8 +236,8 @@ path.combo { stroke: #7f7f7f; }
 }
 
 .key rect {
-    stroke: var(--dark2);
-    fill: var(--black);
+    stroke: var(--dark1);
+    fill: var(--light2);
 }
 
 .tap {
@@ -277,15 +278,15 @@ text.hold {
     }
 }
 
-/* Row 2,3,4 (alpha keys) */
-.keypos-23, .keypos-24, .keypos-25, .keypos-26, .keypos-27, .keypos-28, .keypos-29, .keypos-30, .keypos-31, .keypos-32,
-.keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-39, .keypos-40, .keypos-41, .keypos-42, .keypos-43, .keypos-44,
-.keypos-47, .keypos-48, .keypos-49, .keypos-50, .keypos-51, .keypos-58, .keypos-59, .keypos-60, .keypos-61, .keypos-62
-{
-    &amp; rect {
-        fill: var(--dark1);
-    }
-}
+# /* Row 2,3,4 (alpha keys) */
+# .keypos-23, .keypos-24, .keypos-25, .keypos-26, .keypos-27, .keypos-28, .keypos-29, .keypos-30, .keypos-31, .keypos-32,
+# .keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-39, .keypos-40, .keypos-41, .keypos-42, .keypos-43, .keypos-44,
+# .keypos-47, .keypos-48, .keypos-49, .keypos-50, .keypos-51, .keypos-58, .keypos-59, .keypos-60, .keypos-61, .keypos-62
+# {
+#     &amp; rect {
+#         fill: var(--dark1);
+#     }
+# }
 
 /* Home keys */
 .keypos-35, .keypos-36, .keypos-37, .keypos-38, .keypos-41, .keypos-42, .keypos-43, .keypos-44
