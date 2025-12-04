@@ -202,6 +202,15 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
 /* Note, it is dumb, but SVG requires that ampersand be escaped (even in CSS!): &amp; */
 
 /* Nord color scheme */
@@ -222,11 +231,12 @@ path.combo {
    --yellow: #ebcb8b;
     --green: #a3be8c;
    --purple: #b48ead;
+   --black: #000000;
 }
 
 .key rect {
-    stroke: var(--light3);
-    fill: var(--light3);
+    stroke: var(--dark2);
+    fill: var(--black);
 }
 
 .tap {
@@ -273,7 +283,7 @@ text.hold {
 .keypos-47, .keypos-48, .keypos-49, .keypos-50, .keypos-51, .keypos-58, .keypos-59, .keypos-60, .keypos-61, .keypos-62
 {
     &amp; rect {
-        fill: var(--light1);
+        fill: var(--dark1);
     }
 }
 
@@ -293,14 +303,14 @@ text.hold {
 }
 
 /* Highlight WASD */
-.layer-gaming {
-    &amp; .keypos-25 rect {
-        stroke: var(--purple);
-    }
-    &amp; .keypos-35 rect {
-        stroke: var(--light1);
-    }
-}
+# .layer-qwerty {
+#     &amp; .keypos-25 rect {
+#         stroke: var(--purple);
+#     }
+#     &amp; .keypos-35 rect {
+#         stroke: var(--light1);
+#     }
+# }
 </style>
 <g transform="translate(30, 0)" class="layer-magic">
 <text x="0" y="28" class="label" id="magic">magic</text>
