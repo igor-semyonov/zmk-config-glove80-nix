@@ -2,21 +2,18 @@
 
 ![Photo](img/glove80_photo.png)
 
-Based on [MoErgo's template](https://github.com/moergo-sc/glove80-zmk-config) and [Gaétan Lepage's flake](https://github.com/GaetanLepage/glove80-zmk-config).
+Based on [MoErgo's template](https://github.com/moergo-sc/glove80-zmk-config) and [Gaétan Lepage's flake](https://github.com/GaetanLepage/glove80-zmk-config). Subsequently forked by Igor from MattSturgeon's [glove80-config](https://github.com/MattSturgeon/glove80-config)
 
 This repo contains the current config for my Glove80 keyboard.
-The keymap was initially built using MoErgo's [Layout Editor](https://my.glove80.com),
-however it is now maintained using [Keymap Editor] with occasional manual tweaking.
 
 The keyboard firmware can be built locally using `nix`, which is also used for [automatic builds].
-
 [Keymap Drawer] is used to render images of each layer (see below).
 
 ## Layers
 
 ### Base Layers
 
-The default base layer uses Colemak DH. Some punctuation is moved around using Mod Morphs, and useful stuff is placed on the thumb keys.
+The default base layer uses Colemak.
 
 ![Default](img/glove80_default.svg)
 
@@ -24,29 +21,26 @@ There is a secondary Qwerty base layer available as a fallback:
 
 ![Qwerty](img/glove80_qwerty.svg)
 
-### Gaming
-
-A gaming layer extends Qwerty, shifting WASD to a more comfortable position.
-
-![Gaming](img/glove80_gaming.svg)
-
 ### Symbols
 
-Readily accessible from a thumb key, the symbols layer attempts to find comfortable positions for commonly used programming symbols.
+Readily accessible from either index finger ("V" or "M" from base layer), the symbols layer attempts to find comfortable positions for commonly used programming symbols.
 
-![Symbols](img/glove80_symbols.svg)
+![Symbols](img/glove80_symbol.svg)
 
-### Numbers & Navigation
+### Mouse
 
-Also on the thumb keys, a nav layer has a comfortable numpad and navigation keys.
+Mouse movement and scrolling is accessed via the right thumb.
 
-![Numbers & Navigation](img/glove80_navigation.svg)
+![Mouse](img/glove80_mouse.svg)
 
-I may consider switching from a numpad layout to a 2x 4-finger numrow in an attempt to keep everything closer to the home row. Alternatively, moving the `0` key up may have the same effect.
+Holding the mirror key with the left thumb allows for slower mouse movement.
+
+![Mouse Slow](img/glove80_mouse_slow.svg)
 
 ### MoErgo's Magic Layer
 
 As standard on all Glove80 keyboards, a Magic layer provider access to system utilities, such as Bluetooth settings and RGB lighting config.
+I also moved around a couple of media keys on the right thumb for quick play/pause from the base layer.
 
 ![Magic Layer](img/glove80_magic.svg)
  

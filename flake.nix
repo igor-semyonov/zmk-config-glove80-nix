@@ -11,9 +11,8 @@
     };
   };
 
-  outputs =
-    inputs:
-    inputs.flake-parts.lib.mkFlake { inherit inputs; } {
+  outputs = inputs:
+    inputs.flake-parts.lib.mkFlake {inherit inputs;} {
       systems = inputs.nixpkgs.lib.systems.flakeExposed;
 
       imports = [
@@ -21,20 +20,18 @@
         ./packages/flake-module.nix
       ];
 
-      perSystem =
-        {
-          config,
-          pkgs,
-          ...
-        }:
-        {
-          # `nix run`
-          apps.default.program = config.packages.flash;
+      perSystem = {
+        config,
+        pkgs,
+        ...
+      }: {
+        # `nix run`
+        apps.default.program = config.packages.flash;
 
-          # `nix build`
-          packages.default = config.packages.firmware;
+        # `nix build`
+        packages.default = config.packages.firmware;
 
-          formatter = pkgs.nixfmt-tree;
-        };
+        formatter = pkgs.nixfmt-tree;
+      };
     };
 }

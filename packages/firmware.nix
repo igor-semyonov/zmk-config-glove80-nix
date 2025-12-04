@@ -1,10 +1,9 @@
 {
   flake,
   pkgs,
-}:
-let
+}: let
   inherit (flake.inputs) glove80-zmk;
-  firmware = import glove80-zmk { inherit pkgs; };
+  firmware = import glove80-zmk {inherit pkgs;};
 
   keymap = ../config/glove80.keymap;
   kconfig = ../config/glove80.conf;
@@ -19,4 +18,4 @@ let
     board = "glove80_rh";
   };
 in
-firmware.combine_uf2 left right
+  firmware.combine_uf2 left right
