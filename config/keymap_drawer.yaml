@@ -259,8 +259,8 @@ parse_config:
     UNDER: _
     SLASH: /
     FSLH: /
-    DOUBLE_QUOTES: '@' # UK layout
-    DQT: '@' # UK layout
+    DOUBLE_QUOTES: '"' # UK layout
+    DQT: '"' # UK layout
 
     LEFT_PARENTHESIS: (
     LPAR: (
@@ -280,8 +280,8 @@ parse_config:
     GT: '>'
 
     # This block is kinda funky on UK layout:
-    # BACKSLASH: &hash '#' # UK layout
-    # BSLH: *hash
+    BACKSLASH: '\' # UK layout
+    BSLH: '\'
     # NUHS: *hash
     # NON_US_HASH: *hash
     PIPE: '|' # UK layout

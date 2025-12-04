@@ -23,7 +23,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F11
-  - BSLH
+  - \
   - Q
   - W
   - F
@@ -80,7 +80,7 @@ layers:
   - _
   - Sft+`
   - ''''
-  - '@'
+  - '"'
   qwerty:
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - '"'
   - '{'
   - '}'
-  - Sft+BSLH
+  - Sft+\
   - '`'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
