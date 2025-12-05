@@ -23,7 +23,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F11
-  - \
+  - '`'
   - Q
   - W
   - F
@@ -54,11 +54,11 @@ layers:
   - {t: V, h: symbol}
   - B
   - {t: '$$mdi:keyboard-return$$', h: Ctrl}
-  - {t: Esc, h: Alt}
+  - {t: \, h: Alt}
   - {t: $$moergo$$, h: Magic, type: info}
   - {t: '$$mdi:apple-keyboard-caps$$', h: CAPS}
   - {t: magic, h: sticky}
-  - {t: '$$mdi:backspace$$', h: mouse}
+  - {t: '&', h: mouse}
   - K
   - {t: M, h: symbol}
   - {t: ',', h: AltGr}
@@ -78,7 +78,7 @@ layers:
   - $$mdi:keyboard-return$$
   - ':'
   - _
-  - Sft+`
+  - ¬
   - ''''
   - '"'
   qwerty:
@@ -190,8 +190,8 @@ layers:
   - '"'
   - '{'
   - '}'
-  - Sft+\
-  - '`'
+  - {t: '$$mdi:chevron-down$$', type: trans}
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -202,8 +202,8 @@ layers:
   - $
   - (
   - )
-  - '&'
-  - ;
+  - '|'
+  - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -234,7 +234,7 @@ layers:
   - Pg Up
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - INS
   - {type: held alternate}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}

@@ -195,10 +195,10 @@
             bindings = <
             &kp F1         &kp F2   &kp F3      &kp F4      &kp F5                                                                                         &kp F6  &kp F7      &kp F8      &kp F9      &kp F10
             &kp F12      &kp N1   &kp N2      &kp N3      &kp N4      &kp N5                                                                     &kp N6  &kp N7  &kp N8      &kp N9      &kp N0      &kp F11
-            &kp BSLH        &kp Q    &kp W       &kp F       &kp P       &kp G                                                                      &kp J   &kp L   &kp U       &kp Y       &kp EQUAL       &kp SEMI
+            &kp GRAVE        &kp Q    &kp W       &kp F       &kp P       &kp G                                                                      &kp J   &kp L   &kp U       &kp Y       &kp EQUAL       &kp SEMI
             &kp BSPC        &kp A    &kp R       &kp S       &kp T       &kp D                                                                      &kp H   &kp N   &kp E       &kp I       &kp O    &kp MINUS
-            &kp UP      &hrm LCTRL Z    &hrm LGUI X       &hrm LALT C       &hrl SYMBOLS V       &kp B   &mt LCTRL RETURN   &mt LALT ESC   &magic MAGIC 0  &my_caps CAPS 0  &sl MAGIC  &hrl MOUSE BSPC  &kp K   &hrl SYMBOLS M   &hrm RALT COMMA   &hrm RGUI DOT     &hrm RCTRL FSLH    &kp ASTERISK
-            &kp DOWN      &kp LEFT &kp RIGHT     &kp ESC    &kp TAB           &kp SPACE    &kp LSHIFT     &mt LGUI DEL   &hrl SYMBOLS PRINTSCREEN  &kp RSHIFT   &kp RETURN           &kp COLON  &kp UNDERSCORE    &kp LS(GRAVE)    &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES
+            &kp UP      &hrm LCTRL Z    &hrm LGUI X       &hrm LALT C       &hrl SYMBOLS V       &kp B   &mt LCTRL RETURN   &mt LALT BSLH   &magic MAGIC 0  &my_caps CAPS 0  &sl MAGIC  &hrl MOUSE AMPS  &kp K   &hrl SYMBOLS M   &hrm RALT COMMA   &hrm RGUI DOT     &hrm RCTRL FSLH    &kp ASTERISK
+            &kp DOWN      &kp LEFT &kp RIGHT     &kp ESC    &kp TAB           &kp SPACE    &kp LSHIFT     &mt LGUI DEL   &hrl SYMBOLS PRINTSCREEN  &kp RSHIFT   &kp RETURN           &kp COLON  &kp UNDERSCORE    &kp TILDE    &kp SINGLE_QUOTE    &kp DOUBLE_QUOTES
             >;
         };
 
@@ -218,8 +218,8 @@
             bindings = <
             &trans &trans &trans &trans &trans                  &trans &trans &trans &kp F11 &kp F12 
             &tog QWERTY &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-            &trans &kp EXCL    &kp AT       &kp LBRC       &kp RBRC       &kp LS(BSLH)                                                                      &kp GRAVE   &kp N7   &kp N8       &kp N9       &trans &trans 
-            &trans &kp HASH    &kp DOLLAR       &kp LPAR       &kp RPAR       &kp AMPERSAND                                                                      &kp SEMICOLON   &kp N4   &kp N5       &kp N6       &kp PLUS    &trans 
+            &trans &kp EXCL    &kp AT       &kp LBRC       &kp RBRC       &trans                                                                      &trans   &kp N7   &kp N8       &kp N9       &trans &trans 
+            &trans &kp HASH    &kp DOLLAR       &kp LPAR       &kp RPAR       &kp PIPE                                                                      &trans   &kp N4   &kp N5       &kp N6       &kp PLUS    &trans 
             &trans &kp PERCENT    &kp CARET       &kp LBKT       &kp RBKT       &none   &trans &trans &trans &trans &trans &trans &none   &kp N1   &kp N2   &kp N3     &trans &trans 
             &trans &kp HOME    &kp END  &kp PG_DN &kp PG_UP           &trans &trans &kp INS &trans &trans &trans &kp N0 &kp KP_DOT &kp KP_ENTER &trans &trans
             >;
