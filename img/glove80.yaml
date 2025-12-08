@@ -73,7 +73,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:monitor-dashboard$$'}
-  - {t: Print, h: symbol}
+  - {t: '|', h: symbol}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-return$$
   - ':'
@@ -215,7 +215,7 @@ layers:
   - '['
   - {t: ']', type: held}
   - {t: '$$mdi:chevron-down$$', type: trans}
-  - {t: '$$mdi:chevron-down$$', type: trans}
+  - Print
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
   - {t: '$$mdi:chevron-down$$', type: trans}
