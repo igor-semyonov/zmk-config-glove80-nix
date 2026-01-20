@@ -39,7 +39,7 @@ Holding the mirror key with the left thumb allows for slower mouse movement.
 
 ### MoErgo's Magic Layer
 
-As standard on all Glove80 keyboards, a Magic layer provider access to system utilities, such as Bluetooth settings and RGB lighting config.
+As standard on all Glove80 keyboards, a Magic layer provides access to system utilities, such as Bluetooth settings and RGB lighting config.
 I also moved around a couple of media keys on the right thumb for quick play/pause from the base layer.
 
 ![Magic Layer](img/glove80_magic.svg)
