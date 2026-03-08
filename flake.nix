@@ -31,7 +31,7 @@
         # `nix build`
         packages.default = config.packages.firmware;
 
-        formatter = pkgs.nixfmt-tree;
+        formatter = pkgs.alejandra;
       };
     };
 }

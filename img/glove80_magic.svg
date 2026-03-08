@@ -325,8 +325,10 @@ text.hold {
 <g transform="translate(84, 56)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(140, 28)" class="key keypos-2">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(140, 28)" class="key info keypos-2">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key info"/>
+<use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="-7" y="-7" height="14" width="14.0" class="key info tap glyph mdi:bluetooth-off"/>
+<text x="0" y="24" class="key info hold"><tspan style="font-size: 71%">Clr All</tspan></text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

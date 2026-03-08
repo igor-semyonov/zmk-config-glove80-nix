@@ -408,7 +408,7 @@ layers:
   magic:
   - {t: '$$mdi:bluetooth-off$$', h: Clear, type: info}
   - ''
-  - ''
+  - {t: '$$mdi:bluetooth-off$$', h: Clr All, type: info}
   - ''
   - ''
   - CMENU
